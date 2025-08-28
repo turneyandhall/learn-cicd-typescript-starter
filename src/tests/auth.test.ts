@@ -11,6 +11,6 @@ describe("auth", () => {
       getAPIKey({
         authorization: "ApiKey 123abc",
       })
-    ).toBe("1234abc");
+    ).toBe("123abc");
   });
 });
