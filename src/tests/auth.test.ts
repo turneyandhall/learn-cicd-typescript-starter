@@ -10,7 +10,7 @@ describe("auth", () => {
     expect(
       getAPIKey({
         authorization: "ApiKey 123abc",
-      })
+      }),
     ).toBe("123abc");
   });
 });
